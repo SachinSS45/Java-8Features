@@ -1,0 +1,50 @@
+Collection Overview :
+
+Collection : 
+			It's group of objects represented as a single entity .
+			Concept : (1)List(I)
+					  (2)Set(I)
+					  (3)Map(I)
+			1)List(I) : When insertion order is preserved : Same ordered as we insert and duplicate objects are allowed.
+			  Ex : Implementation Classes : ArrayList , LinkedList , Vector<----Stack
+					ArrayList<String> l = new ArrayList<String>();
+					l.add("Sachin");
+					l.add("Rushi");
+					l.add("Subramanyam");
+					l.add("Omkar");
+					l.add("Rushi");
+					sop(l); [Sachin,Rushi,Subramanyam,Omkar,Rushi]
+			2)Set(I) : No duplicate and order doesn't matter 
+					Implemented by : HashSet,TreeSet , ......
+					HashSet<String> h = new HashSet<String>();
+					h.dd("Sachin");
+					h.add("Rushi");
+					h.add("Subramanyam");
+					h.add("Omkar");
+					h.add("Rushi");
+					sop(h)_;[Sachin,Rushi,Subramanyam,Omkar] // no duplicate objects
+			3)Map(I) : Group of Objects as Key value pair then use Map ,Duplicate key not allowed and order not preserved
+				RollNo -> Name  
+				MobileNumber -> Address
+				Implementation : HashMap , TreeMap....
+				HashMap<String,String> m = new HashMap<String,String>();
+				m.put("A","Apple");
+				m.put("Z","Zebra");
+				m.put("B","Boy");
+				m.put("D","Dog");
+				m.put("T","Tiger");
+				sop(m); // { A = Apple , Z = Zebra , B = Boy , D = Dog , T = Tiger}
+====================================================================================================================================================
+Comparator interface & compare method : This interface has only one method that is compare method so it is FunctionalInterface we can apply lambda Expression
+			-It is used for defining for our sorting cutomizing sorting 
+			-It contain only one method - compare method()
+			
+			public int compare(Object obj1,Object obj2)
+			return negative value - if obj1 has to come to before obj2
+			return zero if obj1 and obj2 are equal 
+			return postive if obj1 after obj2
+====================================================================================================================================================
+			
+
+					
+				
