@@ -12,7 +12,7 @@ public class MapDemo {
 		m.put("B","Boy");
 		m.put("D","Dog");
 		m.put("T","Tiger");
-		System.out.println(m);
+		System.out.println(m);//{A=Apple, B=Boy, D=Dog, T=Tiger, Z=Zebra}
 	}
 
 }

@@ -1,0 +1,13 @@
+		Anonymous Inner class                    |          Lambda Expression
+1)It is a class without name                     |       1)It is a function without name(Anonymous Function)
+2)Anonymous Inner class can extend abstract      |       2)Lambda-expression can't extend abstract and concrete classes
+  concrete classes.                              |
+3)Anonymous Inner class can implements  Interface|		 3)LE can impl an interface which contains single abstract method
+  that contains any number of abstract methods	 |			(functional Interface)
+4)Inside Anonymous Inner class,we can declare    |		 4)In LE we can't declare instance variables.whatever variables
+  instance variables                             | 		   declared are considered as local variables.
+5)AIC can be instantiated                        |       5)LE can't be .
+6)In AIC,this always referes current AIC object  |		 6)Inside LE,this always refers current outer class object,i.e enc-
+  not out class object.							 |			losing class object.
+7)AIC is best choice if we want handle multiple  |		 7)LE is the best choice if we want to handle interface with single
+  methods. 										 | 		   Abstract method(functional Inteface)

@@ -1,0 +1,19 @@
+Summary : 
+	 Java Time API (1.8 version) Joda Time API
+	 1)LocalDate - (i)getDayOfMonth()
+	 			   (ii)getMonthValue()
+	 			   (iii)getYear()
+	 2)LocalTime - (i)getHour()
+	 			   (ii)getMinute()
+	 			   (iii)getSecond
+	 			   (iv)getNano()
+	 3)If you require both LocalTime and LocalDate at a time then use LocalDateTime class
+	 	-LocalDateTime - We can use above methods
+	 4)For Duration/Period 
+	 	Period class.
+	 5)For representing Year
+	 	Year class
+	 6)for Knowing zone
+	 	ZoneId
+	 7)for particular zone date and time
+	 	ZonedDateTime
